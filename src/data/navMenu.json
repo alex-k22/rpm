@@ -1,0 +1,9 @@
+[
+    { "title": "Про нас", "href": "#about-us" },
+    { "title": "Опис", "href": "#description" },
+    { "title": "Технічні характеристики", "href": "#tech" },
+    { "title": "Фото", "href": "#photo" },
+    { "title": "Відео", "href": "#video" },
+    { "title": "Контакти", "href": "#contacts" },
+    { "title": "Консультація", "href": "#consult" }
+]
