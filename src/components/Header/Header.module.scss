@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.li {
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  &:hover {
+    color: red;
+    border-bottom: 2px solid red;
+  }
+}
