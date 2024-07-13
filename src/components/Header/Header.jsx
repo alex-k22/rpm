@@ -15,7 +15,7 @@ const Header = () => {
             {navLinks.map(({ title, href }) => {
               return (
                 <li key={href} className={css.li}>
-                  <Link to={href} className={css.link}>
+                  <Link to={`${href}`} className={css.link}>
                     {title}
                   </Link>
                 </li>
