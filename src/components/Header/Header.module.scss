@@ -1,10 +1,4 @@
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  font-weight: 600;
-}
+
 
 .wrapper {
   display: flex;
@@ -12,12 +6,26 @@
   justify-content: center;
   gap: 30px;
 }
-.li {
-  height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  &:hover {
-    color: red;
-    border-bottom: 2px solid red;
-  }
+
+.visible {
+  transform: translateY(0);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background-color: red;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-family: inherit;
+  // transition: background-color $transition,
+  //   border-color $transition;
+
+  // &:hover,
+  // &:focus {
+  //   background-color: $hover-color;
+  // }
+  // &:active {
+  //   border: 1px solid rgba($color: $hover-color, $alpha: 0.5);
+  // }
 }
