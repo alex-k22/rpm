@@ -1,4 +1,5 @@
 import Container from "../Shared/Container";
+import MobileMenu from "./MobileMenu";
 import { useState, useEffect } from "react";
 
 import useWindowDimensions from "../../hooks/useWindowDimensions";
@@ -17,11 +18,11 @@ const Header = () => {
     setMobilMenuVisible(!mobileMenuVisible);
   };
 
-  const handleNavClick = (event) => {
-    if (event.target.tagName === "A") {
-      handleMobileToggle();
-    }
-  };
+  // const handleNavClick = (event) => {
+  //   if (event.target.tagName === "A") {
+  //     handleMobileToggle();
+  //   }
+  // };
 
   useEffect(() => {
     if (mobileMenuVisible) {
@@ -51,6 +52,7 @@ const Header = () => {
                 )}
               </button>
             )}
+            {width < 1440 && <MobileMenu menuState={mobileMenuVisible} handleMobileToggle={handleMobileToggle}/>}
         </div>
       </Container>
     </header>

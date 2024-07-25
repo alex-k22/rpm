@@ -1,12 +1,22 @@
 .menu {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    font-weight: 600;
+    gap: 10px;
+    font-weight: 800;
+    color: white;
+    border-bottom: 1px solid white;
+
+    @media screen and (min-width: 1440px) {
+      flex-direction: row;
+      gap: 20px;
+      color: black;
+    }
   }
   .li {
     height: 50px;
+    font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     &:hover {

@@ -1,9 +1,9 @@
 [
-
     { "title": "Опис", "href": "#description" },
     { "title": "Технічні характеристики", "href": "#tech" },
     { "title": "Галерея", "href": "#gallery" },
     { "title": "Контакти", "href": "#contacts" },
-    { "title": "Консультація", "href": "#consult" },
-    { "title": "Про нас", "href": "#about-us" }
+    { "title": "Про нас", "href": "#about-us" },
+    { "title": "Консультація", "href": "#consult" }
+
 ]
