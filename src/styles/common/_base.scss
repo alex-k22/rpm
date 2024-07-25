@@ -47,8 +47,13 @@ h6,
 p {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
+p {
+  margin-top: 10px;
+  text-align: justify;
+}
 ul {
   list-style: none;
   padding-left: 0;
@@ -90,5 +95,8 @@ button {
   &:hover {
     background-color: #0b44cd;
   }
+}
+section {
+  margin-top: 20px;
 }
 

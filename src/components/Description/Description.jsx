@@ -1,10 +1,13 @@
 import ImgSrc from "/src/assets/RPM1.jpg";
+import Container from "../Shared/Container";
 import css from "./Description.module.scss";
 
 const Description = () => {
   return (
     <>
+    <Container>
       <section id="description">
+        {/* <Container> */}
         <h2 className={css.heading}>Ротаційний зварювальний позиціонер RPM-250</h2>
         <div className={css.wrapper}>
           <img src={ImgSrc} alt="RPM image" className={css.img}/>
@@ -28,7 +31,9 @@ const Description = () => {
             зварювання: LBW, MIG/MAG і TIG, включаючи імпульсне дугове та
             плазмове зварювання.</p>
         </div>
+        {/* </Container> */}
       </section>
+      </Container>
     </>
   );
 };
