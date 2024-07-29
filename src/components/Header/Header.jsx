@@ -12,7 +12,7 @@ import Navigation from "./Navigation";
 const Header = () => {
   const [mobileMenuVisible, setMobilMenuVisible] = useState(false);
   const { width } = useWindowDimensions();
-  const { visible } = css;
+  // const { visible } = css;
 
   const handleMobileToggle = () => {
     setMobilMenuVisible(!mobileMenuVisible);
@@ -35,7 +35,7 @@ const Header = () => {
 
   return (
     <header className={css.header}>
-      <Container>
+      <Container className={css.container}>
         <div className={css.wrapper}>
           <Logo />
           {width > 1440 && <Navigation />}

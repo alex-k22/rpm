@@ -82,21 +82,22 @@ html {
 }
 
 button {
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 10px;
   font-family: inherit;
   border-color: transparent;
   color: $primary-white-color;
-  background: #3470ff;
+  background-color: $main-color;
+  transition: background-color $transition;
   &:hover {
-    background-color: #0b44cd;
+    background-color: $hover-color;
   }
 }
 section {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 

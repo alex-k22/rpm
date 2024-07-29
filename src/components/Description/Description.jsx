@@ -8,9 +8,9 @@ const Description = () => {
     <Container>
       <section id="description">
         {/* <Container> */}
-        <h2 className={css.heading}>Ротаційний зварювальний позиціонер RPM-250</h2>
+        <h2 className={css.heading}>Опис</h2>
         <div className={css.wrapper}>
-          <img src={ImgSrc} alt="RPM image" className={css.img}/>
+          {/* <img src={ImgSrc} alt="RPM image" className={css.img}/> */}
           <p className={css.text}>
             Ротаційний зварювальний позиціонер призначений для кругового
             зварювання деталей. Він має міцну конструкцію і досконалий дизайн,
