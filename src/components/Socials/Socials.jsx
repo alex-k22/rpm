@@ -2,7 +2,7 @@ import {
   FaTiktok,
   FaInstagram,
   FaYoutube,
-  FaFacebookF,
+  // FaFacebookF,
   FaTelegramPlane,
 } from "react-icons/fa";
 import css from "./Socials.module.scss";
@@ -18,7 +18,7 @@ const Socials = () => {
             aria-label="Go to our tiktok"
             className={css.link}
           >
-            <FaTiktok size={32} />
+            <FaTiktok className={css.icon}/>
           </a>
         </li>
         <li>
@@ -26,11 +26,12 @@ const Socials = () => {
             href="https://www.youtube.com/@rpm.production"
             target="blank"
             aria-label="Go to our youtube channel"
+            className={css.link}
           >
-            <FaYoutube size={32} />
+            <FaYoutube className={css.icon} />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://www.facebook.com"
             target="blank"
@@ -38,14 +39,15 @@ const Socials = () => {
           >
             <FaFacebookF size={32} />
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://www.instagram.com/rpm.production.ua/"
             target="blank"
             aria-label="Go to our instagram"
+            className={css.link}
           >
-            <FaInstagram size={32} />
+            <FaInstagram className={css.icon} />
           </a>
         </li>
         <li>
@@ -53,8 +55,9 @@ const Socials = () => {
             href="https://www.telegram.me/+380677566849"
             target="blank"
             aria-label="Go to our instagram"
+            className={css.link}
           >
-            <FaTelegramPlane size={32} />
+            <FaTelegramPlane className={css.icon} />
           </a>
         </li>
       </ul>

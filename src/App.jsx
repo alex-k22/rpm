@@ -17,10 +17,11 @@ function App() {
       <Header />
       <main>
         <Hero/>
+        <AboutUs />
         <Description />
         <Tech />
 
-        <AboutUs />
+
         <Consultation />
 <Gallery />
       </main>

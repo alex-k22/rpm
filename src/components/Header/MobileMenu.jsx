@@ -19,7 +19,7 @@ const MobileMenu = ({ menuState, handleMobileToggle }) => {
     >
       <Navigation />
       <Link to="tel:380677566849" className={css.contact}><FaPhone/> +38 (067) 756 68 49</Link>
-      <Link to="mailto:maxim.kondrashev@gmail.com" className={css.contact}><FaEnvelope /> maxim.kondrashev@gmail.com</Link>
+      <Link to="mailto:rpm.productionua@gmail.com" className={css.contact}><FaEnvelope /> rpm.productionua@gmail.com</Link>
       <Socials />
     </div>
   );

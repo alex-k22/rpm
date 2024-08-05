@@ -8,6 +8,7 @@ import Logo from "./Logo";
 import css from "./Header.module.scss";
 import { RxHamburgerMenu, RxCross2  } from "react-icons/rx";
 import Navigation from "./Navigation";
+import Socials from "../Socials/Socials";
 
 const Header = () => {
   const [mobileMenuVisible, setMobilMenuVisible] = useState(false);
@@ -39,6 +40,7 @@ const Header = () => {
         <div className={css.wrapper}>
           <Logo />
           {width > 1440 && <Navigation />}
+          {width > 1440 && <Socials/>}
           {width < 1440 && (
               <button
                 className={css.btn}
