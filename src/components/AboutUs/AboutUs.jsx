@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section id="about-us">
       <Container>
-      <h2 id="about-us">Про нас</h2>
+      <h2 id="about-us">Про компанію</h2>
       <p>
         RPM production - це український виробник позиціонерів для зварювання.
       </p>

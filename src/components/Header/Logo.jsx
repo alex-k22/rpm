@@ -1,4 +1,4 @@
-import SiteLogo from '../../assets/rpm-logo.png';
+import SiteLogo from '../../assets/rpm-logo.jpg';
 import css from "./Logo.module.scss";
 import { Link } from "react-router-dom";
 

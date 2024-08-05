@@ -1,10 +1,15 @@
 @import "../../styles/common/vars";
 
 .hero {
-    position: relative;
-  padding-top: 115px;
-  padding-bottom: 115px;
-  background-image:  linear-gradient(to top, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)),url("/src/assets/images/rpm-hero-l.jpg");
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.6),
+      rgba(47, 48, 58, 0.6)
+    ),
+    url("/src/assets/images/rpm-hero-l.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,14 +19,22 @@
   margin-left: auto;
   margin-right: auto;
 
+  @media screen and (min-width: 768px) {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
 }
 .pageHeader {
+  font-size: 32px;
+  font-weight: 600;
+  color: $primary-white-color;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
     font-size: 36px;
-    font-weight: 600;
-color: $primary-white-color;
-margin-bottom: 20px;
+  }
 }
 .btn {
-    height: 50px;
-    padding: 5px 20px;
+  height: 50px;
+  padding: 5px 20px;
 }

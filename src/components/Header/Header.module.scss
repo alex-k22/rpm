@@ -1,7 +1,8 @@
 @import "../../styles/common/vars";
 .header {
   // background-color: $main-color;
-  position: absolute;
+  background-image:  linear-gradient(to top, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6));
+  position: fixed;
   width: 100%;
   z-index: 200;
   top: 0px;

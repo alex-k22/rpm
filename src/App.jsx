@@ -8,6 +8,7 @@ import Description from "./components/Description/Description";
 import Consultation from "./components/Consultation/Consultation";
 // import Socials from "./components/Socials/Socials";
 import Hero from "./components/Hero/Hero";
+import Gallery from "./components/Gallery/Gallery";
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
         <Hero/>
         <Description />
         <Tech />
+
         <AboutUs />
         <Consultation />
-
+<Gallery />
       </main>
       <Footer />
     </>

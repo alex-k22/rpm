@@ -100,4 +100,9 @@ button {
 section {
   margin-bottom: 20px;
 }
+h1, h2 {
+  color: $main-color;
+  font-size: 26px;
 
+  @media screen and (min-width: 768px) {font-size: 32px}
+}

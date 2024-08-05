@@ -13,7 +13,7 @@ const Socials = () => {
       <ul className={css.list}>
         <li>
           <a
-            href="https://www.tiktok.com/@101.325_kpa"
+            href="https://www.tiktok.com/@rpm.production"
             target="blank"
             aria-label="Go to our tiktok"
             className={css.link}
@@ -23,7 +23,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/@user-kg2np8uz4t/shorts"
+            href="https://www.youtube.com/@rpm.production"
             target="blank"
             aria-label="Go to our youtube channel"
           >
@@ -41,7 +41,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/rpm.production.ua/"
             target="blank"
             aria-label="Go to our instagram"
           >
