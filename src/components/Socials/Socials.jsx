@@ -2,7 +2,6 @@ import {
   FaTiktok,
   FaInstagram,
   FaYoutube,
-  // FaFacebookF,
   FaTelegramPlane,
 } from "react-icons/fa";
 import css from "./Socials.module.scss";
@@ -31,15 +30,6 @@ const Socials = () => {
             <FaYoutube className={css.icon} />
           </a>
         </li>
-        {/* <li>
-          <a
-            href="https://www.facebook.com"
-            target="blank"
-            aria-label="Go to our facebook page"
-          >
-            <FaFacebookF size={32} />
-          </a>
-        </li> */}
         <li>
           <a
             href="https://www.instagram.com/rpm.production.ua/"
